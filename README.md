@@ -45,6 +45,18 @@ Name                    State             IPv4             Image
 primary                 Running           172.26.54.99     Ubuntu 22.04 LTS
 ```
 
+```shell
+vim ~/.ssh/config
+```
+
+```shell
+Host remote
+  Hostname <IP_ADDRESS>
+  Port 22
+  identityFile ~/.ssh/remote
+  User ubuntu
+```
+
 Copy Public key: `cat ~/.ssh/remote.pub`
 
 ```shell
