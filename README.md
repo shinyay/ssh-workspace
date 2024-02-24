@@ -6,6 +6,10 @@ Overview
 
 ## Demo
 
+```shell
+multipass launch --name primary --disk 3G --cloud-init cloud-config.yml
+```
+
 ## Features
 
 - feature:1
