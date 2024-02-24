@@ -45,6 +45,8 @@ Name                    State             IPv4             Image
 primary                 Running           172.26.54.99     Ubuntu 22.04 LTS
 ```
 
+Copy Public key: `~/.ssh/remote.pub`
+
 ## Features
 
 - feature:1
