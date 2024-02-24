@@ -36,6 +36,15 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
+```shell
+multipass list
+```
+
+```shell
+Name                    State             IPv4             Image
+primary                 Running           172.26.54.99     Ubuntu 22.04 LTS
+```
+
 ## Features
 
 - feature:1
