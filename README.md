@@ -10,6 +10,32 @@ Overview
 multipass launch --name primary --disk 3G --cloud-init cloud-config.yml
 ```
 
+```shell
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+```shell
+Enter file in which to save the key (~/.ssh/id_ed25519): ~/.ssh/remote
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in ~/.ssh/remote
+Your public key has been saved in ~/.ssh/remote.pub
+The key fingerprint is:
+SHA256:Iad3RPfMAkI2iNkTszXPaV+EpQu54+UhRzZTJTplHNw your_email@example.com
+The key's randomart image is:
++--[ED25519 256]--+
+|     +o+B o .=O+.|
+|    o += B =.@o.E|
+|      o.o O X =  |
+|       + + * B   |
+|      . S = *    |
+|       . o * .   |
+|          . .    |
+|                 |
+|                 |
++----[SHA256]-----+
+```
+
 ## Features
 
 - feature:1
